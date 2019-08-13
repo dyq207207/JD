@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.lanqiao.msg.dao.MsgBorderDao">
+    <select id="getMsgCount"  resultType="int">
+        select count(*) from msgborder;
+    </select>
+
+    <select id="getAll" resultType="msg" parameterType="java.lang.Integer" >
+        select * from msgborder ORDER BY id desc limit #{startNum},#{pageSize};
+    </select>
+
+    <insert id="insertMsg" parameterType="msg" >
+    insert into msgborder (author, msg, date)
+    values ( #{author,jdbcType=VARCHAR}, #{msg,jdbcType=VARCHAR},
+      #{date,jdbcType=TIMESTAMP})
+   </insert>
+</mapper>

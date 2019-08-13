@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $.ajax({
+                url: "http://localhost:8080/get",
+                type: "post",
+                dataType: "json",
+                success: function (data) {
+                    /*data.each(function (index, user) {
+                        var $li = $("<li>" + users.name + "</li>");
+                        $("ul").append($li);
+                    })*/
+                    for (var i = 0; i < data.length; i++) {
+                        var $li = $("<li>" + data[i].id +data[i].userName + data[i].pass+"</li>");
+                        $("ul").append($li);
+                    }
+                }
+            })
+        })
+    </script>
+
+</head>
+<body>
+<ul>
+
+</ul>
+</body>
+</html>

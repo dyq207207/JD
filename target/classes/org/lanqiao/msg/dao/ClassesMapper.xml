@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.lanqiao.msg.dao.ClassesMapper" >
+  <resultMap id="ClassesResultMap" type="org.lanqiao.msg.entity.Classes" >
+    <id column="cid" property="cid" jdbcType="INTEGER" />
+    <result column="cname" property="cname" jdbcType="VARCHAR" />
+    <collection property="teacherSet" ofType="org.lanqiao.msg.entity.Teacher">
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+    </collection>
+    <collection property="students" ofType="Student">
+      <id column="sid" property="sid" jdbcType="INTEGER" />
+      <result column="sname" property="sname" jdbcType="VARCHAR" />
+    </collection>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    cid, cname, tid
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ClassesResultMap" parameterType="java.lang.Integer" >
+    select * from class c,Tea_Class tc,teacher t where c.cid = tc.class_id and tc.teacher_id = t.id and cid =#{cid,jdbcType=INTEGER}
+  </select>
+
+
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from class
+    where cid = #{cid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="org.lanqiao.msg.entity.Classes" >
+    insert into class (cid, cname, tid
+      )
+    values (#{cid,jdbcType=INTEGER}, #{cname,jdbcType=VARCHAR}, #{tid,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="org.lanqiao.msg.entity.Classes" >
+    insert into class
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="cid != null" >
+        cid,
+      </if>
+      <if test="cname != null" >
+        cname,
+      </if>
+      <if test="tid != null" >
+        tid,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="cid != null" >
+        #{cid,jdbcType=INTEGER},
+      </if>
+      <if test="cname != null" >
+        #{cname,jdbcType=VARCHAR},
+      </if>
+      <if test="tid != null" >
+        #{tid,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.lanqiao.msg.entity.Classes" >
+    update class
+    <set >
+      <if test="cname != null" >
+        cname = #{cname,jdbcType=VARCHAR},
+      </if>
+      <if test="tid != null" >
+        tid = #{tid,jdbcType=INTEGER},
+      </if>
+    </set>
+    where cid = #{cid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.lanqiao.msg.entity.Classes" >
+    update class
+    set cname = #{cname,jdbcType=VARCHAR},
+      tid = #{tid,jdbcType=INTEGER}
+    where cid = #{cid,jdbcType=INTEGER}
+  </update>
+</mapper>

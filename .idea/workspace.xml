@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85f09f93-1acf-4769-919b-818c62d3e577" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="daiyuqing" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\maven-repository" />
+        <option name="userSettingsFile" value="D:\Program Files\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OtQhFgMZqvvmczWq3iz4msWirB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\lanqiao\msg\src\test\java\org\lanqiao\msg" />
+      <recent name="D:\lanqiao\msg\src\main\resources" />
+      <recent name="D:\lanqiao\msg\src" />
+      <recent name="D:\lanqiao\msg\src\main\resources\static\js" />
+      <recent name="D:\lanqiao\msg\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MsgApplication">
+    <configuration name="Cal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lanqiao.msg.Cal" />
+      <module name="msg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lanqiao.msg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lanqiao.msg.Test" />
+      <module name="msg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lanqiao.msg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a" />
+      <module name="msg" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="msg [mybatis-generator:generate,-e]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="MsgApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msg" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.lanqiao.msg.MsgApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Cal" />
+      <item itemvalue="Application.a" />
+      <item itemvalue="Maven.msg [mybatis-generator:generate,-e]" />
+      <item itemvalue="Spring Boot.MsgApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.a" />
+        <item itemvalue="Application.Cal" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85f09f93-1acf-4769-919b-818c62d3e577" name="Default Changelist" comment="" />
+      <created>1564794530539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564794530539</updated>
+      <workItem from="1564794534366" duration="4054000" />
+      <workItem from="1564798650584" duration="6076000" />
+      <workItem from="1564813013488" duration="14764000" />
+      <workItem from="1564832680992" duration="9789000" />
+      <workItem from="1564880878330" duration="6064000" />
+      <workItem from="1564887045023" duration="400000" />
+      <workItem from="1564887479814" duration="899000" />
+      <workItem from="1564889310931" duration="6397000" />
+      <workItem from="1564905085491" duration="8473000" />
+      <workItem from="1564915548065" duration="13060000" />
+      <workItem from="1564964408916" duration="12100000" />
+      <workItem from="1564985705039" duration="93000" />
+      <workItem from="1564987707394" duration="125000" />
+      <workItem from="1564994873703" duration="4317000" />
+      <workItem from="1565024367014" duration="6000" />
+      <workItem from="1565074357085" duration="2889000" />
+      <workItem from="1565245695183" duration="261000" />
+      <workItem from="1565255190745" duration="373000" />
+      <workItem from="1565255660196" duration="2522000" />
+      <workItem from="1565260190599" duration="47000" />
+      <workItem from="1565266424266" duration="4553000" />
+      <workItem from="1565311761492" duration="9144000" />
+      <workItem from="1565321311935" duration="14512000" />
+      <workItem from="1565361627142" duration="3195000" />
+      <workItem from="1565397447632" duration="23428000" />
+      <workItem from="1565443848007" duration="3321000" />
+      <workItem from="1565483813164" duration="6134000" />
+      <workItem from="1565493110373" duration="1193000" />
+      <workItem from="1565505696277" duration="43000" />
+      <workItem from="1565520866945" duration="6649000" />
+      <workItem from="1565541676664" duration="4178000" />
+      <workItem from="1565591281964" duration="1420000" />
+      <workItem from="1565617868875" duration="2277000" />
+      <workItem from="1565661131172" duration="2162000" />
+      <workItem from="1565664938303" duration="2538000" />
+    </task>
+    <task id="LOCAL-00001" summary="留言板">
+      <created>1565619098831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565619098831</updated>
+    </task>
+    <task id="LOCAL-00002" summary="留言板">
+      <created>1565676951376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565676951376</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="留言板" />
+    <option name="LAST_COMMIT_MESSAGE" value="留言板" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/lanqiao/msg/controller/MsgController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/lanqiao/msg/service/MsgBorderServiceIml.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="classes.students" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

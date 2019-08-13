@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+<!--    <script src="js/jquery-3.4.1.js"></script>-->
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <script src="https://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
+    <style>
+        .error{color: red}
+    </style>
+    <script>
+        $(function () {
+            $("input[type='button']").click(function () {
+                $.ajax( {
+                    url :"http://localhost:8080/check",
+                    type: "post",
+                    dataType:"json",
+                    data:{'userName':$("input[name='userName']").val(),'pass':$("input[name='pass']").val()},
+                    success:function (data) {
+                        alert(data);
+                    }
+                })
+                location.href="message.html;"
+            })
+            $("#myForm").validate({
+                rules:{
+                    userName:{
+                        required:true,
+                        rangelength:[6,15]
+                    },
+                    pass:{
+                        required:true,
+                        regex: /^\w{4,20}$/
+                    }
+                },
+                messages:{
+                    userName:{
+                        required:"请输入用户名",
+                        rangelength:"长度不对"
+                    },
+                    pass:{
+                        required:"请输入密码",
+                        regex:"密码不合法"
+                    }
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+<form id="myForm">
+    用户名<input type="text" name="userName">
+    <br>
+    密码<input type="password" name="pass">
+    <br>
+    <input type="button" name="submit" value="登陆">
+    <input type="button" name="submit" value="重置">
+    <br>
+</form>
+</body>
+</html>
